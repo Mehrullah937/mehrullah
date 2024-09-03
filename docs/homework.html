@@ -1,0 +1,153 @@
+<style>
+    body{
+        background-color: aliceblue;
+    }
+    #box{
+        width: 500px;
+        height: 500px;
+        /* border: 1px solid red; */
+        border-radius: 4px;
+        background-color: white;
+        padding: 28px;
+
+
+    }
+    #para{
+        display: flex;
+        height: 100vh;
+        border: 1px solid;
+        justify-content: center;
+        align-items: center;
+    }
+    *{
+        margin: 0;
+        padding: o;
+    }
+    .flex{
+        display: flex;
+        
+    }
+    .half{
+        flex-grow: 1;
+        /* width: 100px; */
+        height: 50px;
+        /* border: 1px solid; */
+    }
+    input{
+        padding: 10px;
+    }
+    #email-box{
+        margin-top: 6px;
+    
+    }
+
+    #email-box input{
+        width: 100%;
+    }
+
+      #message-box input{
+        width: 100%;
+      }  
+    
+
+
+      button{
+        background-color: hsl(169.82deg 82.35% 26.67%);
+        width: 100%;
+    padding-block: 19px;
+    color: white;
+      }
+
+      .full-width{
+        width: 100%;
+
+      }
+      textarea{
+        height: 50px;
+      }
+
+</style>
+<div id="Para">
+
+    
+    <div id="box">
+        <h2>contact us</h2>
+        <div class="flex">
+            <div class="half"> 
+                
+                <div>
+
+                    First Name 
+                </div>
+
+                <input type="text">
+            </div>
+            <div class="half">
+
+                <div>
+                    Last Name
+                </div>
+                <input type="text">
+                
+            </div>
+
+        </div>
+
+        <div id="email-box">
+            <div>
+                Email Address
+            </div>
+            <input type="text">
+        </div>
+
+
+        <div id="query-box">
+            <div>
+                query-type
+            </div>
+
+            <div class="flex">
+                <div class="half">
+                    <input type="radio">
+                    general-enquiry
+                </div>
+                <div class="half">
+                    <input type="radio">
+                    support-request
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="message-box">
+            <div>
+                message
+
+            </div>
+            <textarea class="full-width" name="" id=""></textarea>
+        </div>
+
+
+
+        <div>
+            <div>
+            <input type="radio">
+             I consent to being contacted by the Team
+            </div>
+        </div>
+
+
+ 
+        <div >
+
+            <div>
+                <button>submit</button>
+            </div>
+            
+        </div>
+
+
+    </div>
+    
+</div>
